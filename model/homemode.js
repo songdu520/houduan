@@ -12,5 +12,10 @@ let homeSchema = mongoose.Schema({
 let recommendModel = mongoose.model('recommends', homeSchema);
 
 let bannerModel = mongoose.model('banners', homeSchema);
+let messageModel = mongoose.model('messages', homeSchema);
+let moretops = mongoose.model('moretops', homeSchema);
+let subject = mongoose.model('subjects', homeSchema);
+let detail = mongoose.model('details', homeSchema);
+let userinfo = mongoose.model('userinfoes', homeSchema);
 
-module.exports = {recommendModel,bannerModel};
+module.exports = {recommendModel,bannerModel,messageModel,moretops,subject,detail,userinfo};

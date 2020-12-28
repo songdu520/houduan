@@ -8,7 +8,7 @@ var cors = require('cors');
 const mongoose = require('mongoose');
 
 // 第一步, 连接数据库
-mongoose.connect('mongodb://localhost:27017/2009', 
+mongoose.connect('mongodb://42.192.148.146:27017/mars', 
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
